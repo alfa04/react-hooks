@@ -25,7 +25,6 @@ function fetchPokemon(name, delay = 1500) {
       }
     }
   `
-
   return window
     .fetch('https://graphql-pokemon2.vercel.app/', {
       // learn more about this API here: https://wayfair.github.io/dociql/
